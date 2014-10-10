@@ -17,10 +17,10 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: rails-bootstrap_development
+  database: wprixes_development
   pool: 5
-  username: rails-bootstrap
-  password: rails-bootstrap
+  username: wprixes
+  password: wprixes
   host: localhost
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -47,19 +47,19 @@ development:
 test: &test
   adapter: postgresql
   encoding: unicode
-  database: rails-bootstrap_test
+  database: wprixes_test
   pool: 5
-  username: rails-bootstrap
-  password: rails-bootstrap
+  username: wprixes
+  password: wprixes
   host: localhost
 
 staging:
   adapter: postgresql
   encoding: unicode
-  database: rails-bootstrap_staging
+  database: wprixes_staging
   pool: 5
-  username: rails-bootstrap
-  password: rails-bootstrap
+  username: wprixes
+  password: wprixes
   host: localhost
 
 production:
