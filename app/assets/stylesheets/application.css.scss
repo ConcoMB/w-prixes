@@ -3,6 +3,21 @@
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
- *= require bootstrap_and_overrides
+ *= require foundation_and_overrides
  *= require_tree .
 */
+
+$blue: #71A0D7;
+$green: #6EBE46;
+
+.blue {
+  background-color: $blue;
+}
+
+.green {
+  background-color: $green;
+}
+
+.category {
+  padding: 10px;
+}

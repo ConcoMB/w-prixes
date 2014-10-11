@@ -26,7 +26,7 @@ gem 'coffee-rails'
 gem 'uglifier'
 gem 'less-rails'
 gem 'therubyracer'
-gem 'twitter-bootstrap-rails'
+gem 'foundation-rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

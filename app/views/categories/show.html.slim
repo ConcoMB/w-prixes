@@ -1,0 +1,13 @@
+h2 = @category.title
+h4 = @category.description
+- if current_user.voted?(@category)
+  p Ya votaste capo
+- else
+  h5 Vota a un nominado!
+  - @category.nominees.each do |n|
+    = form_for Vote.new, url: votes_path do |f|
+      = f.hidden_field :user_id, value: current_user.id
+      = f.hidden_field :category_id, value: @category.id
+      = f.hidden_field :nominee_id, value: n.id
+      = f.submit n.user.name, class: 'button'
+a.button href=categories_path Volver

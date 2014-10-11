@@ -133,6 +133,9 @@ GEM
       i18n (~> 0.5)
     formtastic (2.3.1)
       actionpack (>= 3.0)
+    foundation-rails (5.4.5.0)
+      railties (>= 3.1.0)
+      sass (>= 3.2.0)
     gherkin (2.12.2)
       multi_json (~> 1.3)
     google-webfonts-rails (0.0.4)
@@ -319,11 +322,6 @@ GEM
     timers (1.1.0)
     turbolinks (2.3.0)
       coffee-rails
-    twitter-bootstrap-rails (3.2.0)
-      actionpack (~> 4.1)
-      execjs (~> 2.2)
-      rails (~> 4.1)
-      railties (~> 4.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uglifier (2.5.3)
@@ -357,6 +355,7 @@ DEPENDENCIES
   factory_girl_rails
   faker
   formtastic
+  foundation-rails
   google-webfonts-rails
   inherited_resources
   jquery-rails
@@ -386,6 +385,5 @@ DEPENDENCIES
   therubyracer
   timecop
   turbolinks
-  twitter-bootstrap-rails
   uglifier
   unicorn
