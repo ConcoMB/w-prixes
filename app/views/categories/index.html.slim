@@ -1,3 +1,8 @@
-h1 Categorias
-- @categories.each do |c|
-  = render 'table_category', category: c
+h1 Bienvenido a los W-premios 2014
+h3 Categorias
+div
+  - @categories.each do |c|
+    = render 'table_category', category: c
+br
+- if current_user.is_admin
+  a.button.alert href=results_path resultados

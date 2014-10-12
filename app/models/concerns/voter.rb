@@ -4,7 +4,11 @@ module Voter
   included do
 
     def voted?(category)
-      UserVoteCategoryQuery.new(self, category).get.size > 0
+      find_vote(category).present?
+    end
+
+    def find_vote(category)
+      UserVoteCategoryQuery.new(self, category).get
     end
 
   end

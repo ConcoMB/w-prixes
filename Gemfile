@@ -43,6 +43,8 @@ gem 'jquery-turbolinks'
 
 gem 'devise'
 
+gem "highcharts-rails", "~> 3.0.0"
+
 # CodeClimate Reporter
 gem 'codeclimate-test-reporter', group: :test, require: nil
 gem 'simplecov', require: false, group: :test

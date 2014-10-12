@@ -1,0 +1,11 @@
+- @results.each do |r|
+  - unless r[:results].nil?
+    - keys = r[:ordered_results].map { |a| a[0] }
+    .chart id=r[:category] data-results=r[:ordered_results] data-keys=keys
+      h3.title = r[:category]
+      p = "1. #{r[:ordered_results][0][0]} con #{r[:ordered_results][0][1]} votos"
+      p = "2. #{r[:ordered_results][1][0]} con #{r[:ordered_results][1][1]} votos" if r[:ordered_results].length >= 2 
+      p = "3. #{r[:ordered_results][2][0]} con #{r[:ordered_results][2][1]} votos" if r[:ordered_results].length >= 3
+      .chart-container
+      hr
+end

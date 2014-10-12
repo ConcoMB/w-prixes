@@ -6,6 +6,7 @@ class CategoriesController < ApplicationController
 
   def show
     @category = Category.find(params[:id])
+    @not_nominated_users = UsersNotNominatedQuery.new(@category).get.order(name: :asc)
   end
 
 end

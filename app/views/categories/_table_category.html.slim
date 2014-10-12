@@ -1,4 +1,3 @@
-- color = current_user.voted?(category) ? 'blue' : 'green'
-a href=category_path(category)
-  .category class=color
-    h4 = category.title
+- color = current_user.voted?(category) ? '' : 'success'
+a.button.m10 href=category_path(category) class=color
+  h4 = category.title

@@ -1,13 +1,22 @@
 h2 = @category.title
 h4 = @category.description
 - if current_user.voted?(@category)
-  p Ya votaste capo
+  p = "Ya votaste a #{current_user.find_vote(@category).nominee.user.name} capo"
 - else
   h5 Vota a un nominado!
-  - @category.nominees.each do |n|
-    = form_for Vote.new, url: votes_path do |f|
-      = f.hidden_field :user_id, value: current_user.id
-      = f.hidden_field :category_id, value: @category.id
-      = f.hidden_field :nominee_id, value: n.id
-      = f.submit n.user.name, class: 'button'
-a.button href=categories_path Volver
+  div
+    - @category.nominees.each do |n|
+      = form_for Vote.new, url: votes_path do |f|
+        = f.hidden_field :user_id, value: current_user.id
+        = f.hidden_field :category_id, value: @category.id
+        = f.hidden_field :nominee_id, value: n.id
+        = f.submit n.user.name, class: 'button'
+  - unless @category.is_closed_to_nominate
+    h5 O vota a alguien mas!
+    = form_for Nominee.new, url: category_nominees_path(@category) do |f|
+      .row
+        .columns.small-4
+          = f.select :user_id, options_for_select: @not_nominated_users.map { |u| [u.name, u.id] }
+          = f.hidden_field :category_id, value: @category.id
+          = f.submit 'agregar', class: 'button alert'
+a.button.success href=categories_path Volver

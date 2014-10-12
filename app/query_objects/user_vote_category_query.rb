@@ -1,12 +1,12 @@
 class UserVoteCategoryQuery
 
-  def initialize(user, categroy)
+  def initialize(user, category)
     @user = user
-    @categroy = categroy
+    @category = category
   end
 
   def get
-    Vote.where(user_id: @user, category: @categroy)
+    Vote.find_by(user_id: @user, category: @category)
   end
 
 end
