@@ -18,16 +18,40 @@ $green: #6EBE46;
   background-color: $green;
 }
 
+body {
+  background-image: asset-url('back.jpg') !important;
+  background-size: cover !important;
+}
+
 .category {
   padding: 10px;
 }
 
+.mainRow {
+  background-color: rgb(231,238,247);
+  border: 1px solid white;
+  padding: 20px 50px;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important; 
+}
+
 .new_vote {
-  display: inline;
+  display: inline-block;
+  width: 300px;
+  height: 100px;
   margin: 10px;
+
+  input {
+    margin: 10px
+  }
 }
 
 .m10 {
   margin: 10px !important;
 }
 
+.avatar {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}

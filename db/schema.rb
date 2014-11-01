@@ -11,15 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141010011941) do
+ActiveRecord::Schema.define(version: 20141101154338) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "categories", force: true do |t|
-    t.text   "description"
-    t.string "title"
+    t.text    "description"
+    t.string  "title"
     t.boolean "is_closed_to_nominate", default: false
+    t.string  "image"
   end
 
   create_table "nominees", force: true do |t|
@@ -42,6 +43,7 @@ ActiveRecord::Schema.define(version: 20141010011941) do
     t.inet     "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "avatar"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree

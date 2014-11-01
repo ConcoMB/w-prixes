@@ -5,10 +5,15 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-  after_initialize :init
+  before_create :init
+  mount_uploader :avatar, PictureUploader
+
+  def password_required?
+    false
+  end
 
   def init
-    return if password.present?
+    return if encrypted_password.present?
     pass = Digest::SHA1.hexdigest(email + Time.current.to_s)
     self.password = pass
     self.password_confirmation = pass

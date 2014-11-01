@@ -1,11 +1,21 @@
 - @results.each do |r|
   - unless r[:results].nil?
-    - keys = r[:ordered_results].map { |a| a[0] }
-    .chart id=r[:category] data-results=r[:ordered_results] data-keys=keys
+    - keys = r[:ordered_results].map { |a| a[0].name }
+    - results = r[:ordered_results].map { |a, b| [a.name, b] }
+    .chart id=r[:category] data-results=results data-keys=keys
       h3.title = r[:category]
-      p = "1. #{r[:ordered_results][0][0]} con #{r[:ordered_results][0][1]} votos"
-      p = "2. #{r[:ordered_results][1][0]} con #{r[:ordered_results][1][1]} votos" if r[:ordered_results].length >= 2 
-      p = "3. #{r[:ordered_results][2][0]} con #{r[:ordered_results][2][1]} votos" if r[:ordered_results].length >= 3
+      .row
+        .columns.small-4
+          p = "1. #{r[:ordered_results][0][0].name} con #{r[:ordered_results][0][1]} votos"
+          = image_tag r[:ordered_results][0][0].avatar, class: 'avatar'
+        .columns.small-4
+          - if r[:ordered_results].length >= 2 
+            p = "2. #{r[:ordered_results][1][0].name} con #{r[:ordered_results][1][1]} votos"
+            = image_tag r[:ordered_results][1][0].avatar, class: 'avatar'
+        .columns.small-4
+          - if r[:ordered_results].length >= 3
+            p = "3. #{r[:ordered_results][2][0].name} con #{r[:ordered_results][2][1]} votos" 
+            = image_tag r[:ordered_results][2][0].avatar, class: 'avatar'
       .chart-container
       hr
 end

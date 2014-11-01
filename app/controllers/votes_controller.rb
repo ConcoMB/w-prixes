@@ -1,5 +1,7 @@
 class VotesController < ApplicationController
 
+  before_filter :check_user
+
   def create
     return redirect_to :back if current_user.voted?(Category.find(resource_params.first[:category_id]))
     @vote = Vote.create!(resource_params.first)

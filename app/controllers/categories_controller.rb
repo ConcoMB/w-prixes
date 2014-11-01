@@ -1,5 +1,7 @@
 class CategoriesController < ApplicationController
 
+  before_filter :check_user
+
   def index
     @categories = Category.all
   end

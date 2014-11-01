@@ -6,17 +6,19 @@ h4 = @category.description
   h5 Vota a un nominado!
   div
     - @category.nominees.each do |n|
-      = form_for Vote.new, url: votes_path do |f|
+      = form_for Vote.new, url: votes_path, class: 'new_vote' do |f|
+        = image_tag n.user.avatar, class: 'avatar'
         = f.hidden_field :user_id, value: current_user.id
         = f.hidden_field :category_id, value: @category.id
         = f.hidden_field :nominee_id, value: n.id
         = f.submit n.user.name, class: 'button'
   - unless @category.is_closed_to_nominate
-    h5 O vota a alguien mas!
+    br
+    h5 O nomina a alguien mas!
     = form_for Nominee.new, url: category_nominees_path(@category) do |f|
       .row
         .columns.small-4
           = f.select :user_id, options_for_select: @not_nominated_users.map { |u| [u.name, u.id] }
           = f.hidden_field :category_id, value: @category.id
-          = f.submit 'agregar', class: 'button alert'
+          = f.submit 'Agregar', class: 'button alert'
 a.button.success href=categories_path Volver

@@ -1,5 +1,7 @@
 class NomineesController < ApplicationController
 
+  before_filter :check_user
+
   def create
     category = Category.find(params[:category_id])
     Nominee.create!(resource_params.first) unless category.is_closed_to_nominate

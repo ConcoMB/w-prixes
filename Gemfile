@@ -36,6 +36,7 @@ gem 'loadjs'
 gem 'inherited_resources'
 
 gem 'carrierwave'
+gem 'rmagick'
 
 gem 'turbolinks'
 
@@ -54,6 +55,7 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'formtastic'
 gem 'ransack'
 gem 'polyamorous'
+gem 'fog'
 
 # Enables Slim templates
 gem 'slim-rails'

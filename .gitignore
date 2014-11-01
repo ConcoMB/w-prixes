@@ -35,3 +35,4 @@ build/
 /.bundle
 
 .mail.yml
+.amazons3.yml
