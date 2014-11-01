@@ -27865,3 +27865,1955 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-12 14:28:47
 
 
 Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-10-12 14:28:47 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-01 11:58:43 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (3.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#show as HTML
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 17ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-11-01 11:58:43 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (451.4ms)
+Completed 200 OK in 782ms (Views: 764.7ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-01 11:58:44 -0300
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2014-11-01 11:58:54 -0300
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-01 11:59:56 -0300
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2014-11-01 12:00:01 -0300
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:14 -0300
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-01 12:00:25 -0300
+
+
+Started POST "/users/password" for 127.0.0.1 at 2014-11-01 12:00:28 -0300
+Processing by Devise::PasswordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CTtt6r1fnz0dIKwgvFTLto6lF+KU7J74nbCy4vbRVFs=", "user"=>{"email"=>"cmaderblanco@wolox.com.ar"}, "commit"=>"Send me reset password instructions"}
+  [1m[35mUser Load (6.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'cmaderblanco@wolox.com.ar'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (3.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."reset_password_token" = '0fa3d24929649fce96253d4a63946aad587e4663f7fc23616445091c6da3a353'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (2.6ms)[0m  [1mUPDATE "users" SET "reset_password_sent_at" = $1, "reset_password_token" = $2, "updated_at" = $3 WHERE "users"."id" = 1[0m  [["reset_password_sent_at", "2014-11-01 15:00:28.833491"], ["reset_password_token", "0fa3d24929649fce96253d4a63946aad587e4663f7fc23616445091c6da3a353"], ["updated_at", "2014-11-01 15:00:28.834109"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  Rendered devise/mailer/reset_password_instructions.html.erb (7.0ms)
+
+Devise::Mailer#reset_password_instructions: processed outbound mail in 19.6ms
+Completed 500 Internal Server Error in 287ms
+
+ArgumentError - Missing host to link to! Please provide the :host parameter, set default_url_options[:host], or set :only_path to true:
+  actionpack (4.1.6) lib/action_dispatch/http/url.rb:67:in `build_host_url'
+  actionpack (4.1.6) lib/action_dispatch/http/url.rb:42:in `url_for'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:668:in `url_for'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:397:in `url_for'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:230:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:181:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:270:in `block (2 levels) in define_url_helper'
+  actionpack (4.1.6) lib/action_dispatch/routing/routes_proxy.rb:31:in `edit_user_password_url'
+  actionpack (4.1.6) lib/action_dispatch/routing/routes_proxy.rb:34:in `method_missing'
+  devise (3.3.0) lib/devise/controllers/url_helpers.rb:52:in `edit_password_url'
+  app/views/devise/mailer/reset_password_instructions.html.erb:5:in `_app_views_devise_mailer_reset_password_instructions_html_erb__354505336870165122_70320569915860'
+  actionview (4.1.6) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.6) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.6) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.6) lib/action_view/rendering.rb:99:in `_render_template'
+  actionview (4.1.6) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionmailer (4.1.6) lib/action_mailer/base.rb:862:in `block in collect_responses'
+  actionmailer (4.1.6) lib/action_mailer/base.rb:876:in `each_template'
+  actionmailer (4.1.6) lib/action_mailer/base.rb:858:in `collect_responses'
+  actionmailer (4.1.6) lib/action_mailer/base.rb:789:in `mail'
+  devise (3.3.0) lib/devise/mailers/helpers.rb:16:in `devise_mail'
+  devise (3.3.0) app/mailers/devise/mailer.rb:12:in `reset_password_instructions'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionmailer (4.1.6) lib/action_mailer/base.rb:580:in `block in process'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionmailer (4.1.6) lib/action_mailer/base.rb:577:in `process'
+  actionmailer (4.1.6) lib/action_mailer/base.rb:568:in `initialize'
+  actionmailer (4.1.6) lib/action_mailer/base.rb:551:in `method_missing'
+  devise (3.3.0) lib/devise/models/authenticatable.rb:173:in `send_devise_notification'
+  devise (3.3.0) lib/devise/models/recoverable.rb:99:in `send_reset_password_instructions_notification'
+  devise (3.3.0) lib/devise/models/recoverable.rb:49:in `send_reset_password_instructions'
+  devise (3.3.0) lib/devise/models/recoverable.rb:116:in `send_reset_password_instructions'
+  devise (3.3.0) app/controllers/devise/passwords_controller.rb:13:in `create'
+  actionpack (4.1.6) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/mapper.rb:45:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.0.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.0.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.0.0) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/concoMB/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/concoMB/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/concoMB/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/2f406a82a7bcd105/variables" for 127.0.0.1 at 2014-11-01 12:00:28 -0300
+
+
+Started POST "/users/password" for 127.0.0.1 at 2014-11-01 12:07:29 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::PasswordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CTtt6r1fnz0dIKwgvFTLto6lF+KU7J74nbCy4vbRVFs=", "user"=>{"email"=>"cmaderblanco@wolox.com.ar"}, "commit"=>"Send me reset password instructions"}
+  [1m[35mUser Load (1.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'cmaderblanco@wolox.com.ar'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."reset_password_token" = '4b1ddb069810b7727f07d207f0091257ae4bbff06409eda15b6d6d1260385dff'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "users" SET "reset_password_sent_at" = $1, "reset_password_token" = $2, "updated_at" = $3 WHERE "users"."id" = 1[0m  [["reset_password_sent_at", "2014-11-01 15:07:29.803557"], ["reset_password_token", "4b1ddb069810b7727f07d207f0091257ae4bbff06409eda15b6d6d1260385dff"], ["updated_at", "2014-11-01 15:07:29.804173"]]
+  [1m[35m (1.9ms)[0m  COMMIT
+  Rendered devise/mailer/reset_password_instructions.html.erb (2.0ms)
+
+Devise::Mailer#reset_password_instructions: processed outbound mail in 408.5ms
+
+Sent mail to cmaderblanco@wolox.com.ar (11.8ms)
+Date: Sat, 01 Nov 2014 12:07:30 -0300
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: cmaderblanco@wolox.com.ar
+Message-ID: <5454f73239fa6_108d3ff4e2db244818083@SerConco.local.mail>
+Subject: Reset password instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Hello cmaderblanco@wolox.com.ar!</p>
+
+<p>Someone has requested a link to change your password. You can do this through the link below.</p>
+
+<p><a href="http://prizes.wolox.com.ar/users/password/edit?reset_password_token=xfL7yfD_juHLcBki8N66">Change my password</a></p>
+
+<p>If you didn't request this, please ignore this email.</p>
+<p>Your password won't change until you access the link above and create a new one.</p>
+
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 673ms (ActiveRecord: 8.2ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 239ms (Views: 236.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-01 12:07:30 -0300
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2014-11-01 12:08:55 -0300
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_links.erb (1.8ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/password" for 127.0.0.1 at 2014-11-01 12:08:59 -0300
+Processing by Devise::PasswordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CTtt6r1fnz0dIKwgvFTLto6lF+KU7J74nbCy4vbRVFs=", "user"=>{"email"=>"cmaderblanco@wolox.com.ar"}, "commit"=>"Send me reset password instructions"}
+  [1m[36mUser Load (1.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'cmaderblanco@wolox.com.ar'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."reset_password_token" = '0b9ae92c18afb8b1f3b2527ac90becff86bf00cc51253861d261cc69f1ba8d37'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "reset_password_sent_at" = $1, "reset_password_token" = $2, "updated_at" = $3 WHERE "users"."id" = 1  [["reset_password_sent_at", "2014-11-01 15:08:59.807686"], ["reset_password_token", "0b9ae92c18afb8b1f3b2527ac90becff86bf00cc51253861d261cc69f1ba8d37"], ["updated_at", "2014-11-01 15:08:59.808153"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  Rendered devise/mailer/reset_password_instructions.html.erb (0.7ms)
+
+Devise::Mailer#reset_password_instructions: processed outbound mail in 10.5ms
+
+Sent mail to cmaderblanco@wolox.com.ar (1.7ms)
+Date: Sat, 01 Nov 2014 12:08:59 -0300
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: cmaderblanco@wolox.com.ar
+Message-ID: <5454f78bc8f2a_108d3ff4e0710dbc18177@SerConco.local.mail>
+Subject: Reset password instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Hello cmaderblanco@wolox.com.ar!</p>
+
+<p>Someone has requested a link to change your password. You can do this through the link below.</p>
+
+<p><a href="http://prizes.wolox.com.ar/users/password/edit?reset_password_token=4mXs_2u51Hzxzb4S9yK5">Change my password</a></p>
+
+<p>If you didn't request this, please ignore this email.</p>
+<p>Your password won't change until you access the link above and create a new one.</p>
+
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 29ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-11-01 12:08:59 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 12:08:59 -0300
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-01 12:08:59 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 12:08:59 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 12:08:59 -0300
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-01 12:08:59 -0300
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-01 12:09:00 -0300
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2014-11-01 12:10:58 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_links.erb (4.2ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (3751.8ms)
+Completed 200 OK in 4392ms (Views: 4365.5ms | ActiveRecord: 3.7ms)
+
+
+Started POST "/users/password" for 127.0.0.1 at 2014-11-01 12:11:06 -0300
+Processing by Devise::PasswordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CTtt6r1fnz0dIKwgvFTLto6lF+KU7J74nbCy4vbRVFs=", "user"=>{"email"=>"cmaderblanco@wolox.com.ar"}, "commit"=>"Send me reset password instructions"}
+  [1m[35mUser Load (2.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'cmaderblanco@wolox.com.ar'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (1.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."reset_password_token" = '5e0780a90f2ebc8e4fc353bdd0d66465b55edb4df3b775e0fefd7b103bc9a7f1'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mUPDATE "users" SET "reset_password_sent_at" = $1, "reset_password_token" = $2, "updated_at" = $3 WHERE "users"."id" = 1[0m  [["reset_password_sent_at", "2014-11-01 15:11:06.744374"], ["reset_password_token", "5e0780a90f2ebc8e4fc353bdd0d66465b55edb4df3b775e0fefd7b103bc9a7f1"], ["updated_at", "2014-11-01 15:11:06.748095"]]
+  [1m[35m (2.4ms)[0m  COMMIT
+  Rendered devise/mailer/reset_password_instructions.html.erb (4.9ms)
+
+Devise::Mailer#reset_password_instructions: processed outbound mail in 36.2ms
+
+Sent mail to cmaderblanco@wolox.com.ar (29.0ms)
+Date: Sat, 01 Nov 2014 12:11:06 -0300
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: cmaderblanco@wolox.com.ar
+Message-ID: <5454f80acda5b_10ec3fdd4b4da770402cc@SerConco.local.mail>
+Subject: Reset password instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Hello cmaderblanco@wolox.com.ar!</p>
+
+<p>Someone has requested a link to change your password. You can do this through the link below.</p>
+
+<p><a href="http://prizes.wolox.com.ar/users/password/edit?reset_password_token=t8r--4styyDAe18s46jB">Change my password</a></p>
+
+<p>If you didn't request this, please ignore this email.</p>
+<p>Your password won't change until you access the link above and create a new one.</p>
+
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 383ms (ActiveRecord: 8.1ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-11-01 12:11:06 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (4.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 70ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:07 -0300
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:08 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:08 -0300
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-01 12:11:08 -0300
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2014-11-01 12:15:11 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_links.erb (2.2ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (469.1ms)
+Completed 200 OK in 718ms (Views: 697.7ms | ActiveRecord: 3.6ms)
+
+
+Started POST "/users/password" for 127.0.0.1 at 2014-11-01 12:15:14 -0300
+Processing by Devise::PasswordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CTtt6r1fnz0dIKwgvFTLto6lF+KU7J74nbCy4vbRVFs=", "user"=>{"email"=>"cmaderblanco@wolox.com.ar"}, "commit"=>"Send me reset password instructions"}
+  [1m[35mUser Load (2.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'cmaderblanco@wolox.com.ar'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."reset_password_token" = '5e0ef2f43c59f528417eabf17efd6179e2ffb254de954dcd605c1d711d580124'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "reset_password_sent_at" = $1, "reset_password_token" = $2, "updated_at" = $3 WHERE "users"."id" = 1[0m  [["reset_password_sent_at", "2014-11-01 15:15:15.114125"], ["reset_password_token", "5e0ef2f43c59f528417eabf17efd6179e2ffb254de954dcd605c1d711d580124"], ["updated_at", "2014-11-01 15:15:15.115479"]]
+  [1m[35m (1.9ms)[0m  COMMIT
+  Rendered devise/mailer/reset_password_instructions.html.erb (1.6ms)
+
+Devise::Mailer#reset_password_instructions: processed outbound mail in 17.0ms
+
+Sent mail to cmaderblanco@wolox.com.ar (1309.6ms)
+Date: Sat, 01 Nov 2014 12:15:15 -0300
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: cmaderblanco@wolox.com.ar
+Message-ID: <5454f90326162_11293fe0a5840d9421822@SerConco.local.mail>
+Subject: Reset password instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Hello cmaderblanco@wolox.com.ar!</p>
+
+<p>Someone has requested a link to change your password. You can do this through the link below.</p>
+
+<p><a href="http://localhost:3000/users/password/edit?reset_password_token=4Z_tCkKXh3QDZsXUZjbs">Change my password</a></p>
+
+<p>If you didn't request this, please ignore this email.</p>
+<p>Your password won't change until you access the link above and create a new one.</p>
+
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 1568ms (ActiveRecord: 6.7ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:16 -0300
+
+
+Started GET "/users/password/edit?reset_password_token=[FILTERED]" for 127.0.0.1 at 2014-11-01 12:15:23 -0300
+Processing by Devise::PasswordsController#edit as HTML
+  Parameters: {"reset_password_token"=>"[FILTERED]"}
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/passwords/edit.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:24 -0300
+
+
+Started PUT "/users/password" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+Processing by Devise::PasswordsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CTtt6r1fnz0dIKwgvFTLto6lF+KU7J74nbCy4vbRVFs=", "user"=>{"reset_password_token"=>"[FILTERED]", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Change my password"}
+  [1m[36mUser Load (3.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."reset_password_token" = '5e0ef2f43c59f528417eabf17efd6179e2ffb254de954dcd605c1d711d580124'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mUPDATE "users" SET "encrypted_password" = $1, "reset_password_sent_at" = $2, "reset_password_token" = $3, "updated_at" = $4 WHERE "users"."id" = 1[0m  [["encrypted_password", "$2a$10$ZqktOWBU9pMs9i8ckQqHXOhMrPMlDcF0yuZZjZB1Hf2myY2wdi9TS"], ["reset_password_sent_at", nil], ["reset_password_token", nil], ["updated_at", "2014-11-01 15:15:33.204759"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "reset_password_token" = $3, "sign_in_count" = $4, "updated_at" = $5 WHERE "users"."id" = 1  [["current_sign_in_at", "2014-11-01 15:15:33.209184"], ["last_sign_in_at", "2014-10-12 15:38:51.913785"], ["reset_password_token", "4Z_tCkKXh3QDZsXUZjbs"], ["sign_in_count", 3], ["updated_at", "2014-11-01 15:15:33.210795"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 95ms (ActiveRecord: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+Processing by HomeController#show as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/categories
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (2.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mVote Load (1.6ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 1 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (24.6ms)
+  [1m[35mVote Load (0.7ms)[0m  SELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 2 LIMIT 1
+  Rendered categories/_table_category.html.slim (2.0ms)
+  [1m[36mVote Load (0.3ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 3 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (1.0ms)
+  [1m[35mVote Load (0.2ms)[0m  SELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 4 LIMIT 1
+  Rendered categories/_table_category.html.slim (0.6ms)
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 5 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (0.7ms)
+  [1m[35mVote Load (0.5ms)[0m  SELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 6 LIMIT 1
+  Rendered categories/_table_category.html.slim (1.4ms)
+  [1m[36mVote Load (0.5ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 7 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (1.5ms)
+  [1m[35mVote Load (0.6ms)[0m  SELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 8 LIMIT 1
+  Rendered categories/_table_category.html.slim (1.6ms)
+  [1m[36mVote Load (0.9ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 9 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (2.1ms)
+  [1m[35mVote Load (0.5ms)[0m  SELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 10 LIMIT 1
+  Rendered categories/_table_category.html.slim (1.4ms)
+  [1m[36mVote Load (0.3ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 11 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (0.8ms)
+  [1m[35mVote Load (0.3ms)[0m  SELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 12 LIMIT 1
+  Rendered categories/_table_category.html.slim (0.8ms)
+  [1m[36mVote Load (0.6ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 13 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (1.6ms)
+  [1m[35mVote Load (0.7ms)[0m  SELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 14 LIMIT 1
+  Rendered categories/_table_category.html.slim (2.0ms)
+  [1m[36mVote Load (0.5ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 15 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (1.4ms)
+  [1m[35mVote Load (0.4ms)[0m  SELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 16 LIMIT 1
+  Rendered categories/_table_category.html.slim (1.1ms)
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 17 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (0.6ms)
+  [1m[35mVote Load (0.4ms)[0m  SELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 18 LIMIT 1
+  Rendered categories/_table_category.html.slim (1.0ms)
+  [1m[36mVote Load (0.8ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 19 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (1.7ms)
+  [1m[35mVote Load (0.7ms)[0m  SELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 20 LIMIT 1
+  Rendered categories/_table_category.html.slim (1.7ms)
+  [1m[36mVote Load (0.4ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 21 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (1.1ms)
+  [1m[35mVote Load (0.7ms)[0m  SELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 22 LIMIT 1
+  Rendered categories/_table_category.html.slim (1.8ms)
+  [1m[36mVote Load (0.4ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 23 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (1.3ms)
+  [1m[35mVote Load (0.4ms)[0m  SELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 24 LIMIT 1
+  Rendered categories/_table_category.html.slim (1.0ms)
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 25 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (0.6ms)
+  [1m[35mVote Load (0.3ms)[0m  SELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 26 LIMIT 1
+  Rendered categories/_table_category.html.slim (0.7ms)
+  [1m[36mVote Load (0.4ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 27 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (1.0ms)
+  [1m[35mVote Load (0.6ms)[0m  SELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 28 LIMIT 1
+  Rendered categories/_table_category.html.slim (1.4ms)
+  [1m[36mVote Load (0.7ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 29 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (1.5ms)
+  [1m[35mVote Load (0.4ms)[0m  SELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 30 LIMIT 1
+  Rendered categories/_table_category.html.slim (1.1ms)
+  [1m[36mVote Load (0.8ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 31 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (1.9ms)
+  [1m[35mVote Load (0.7ms)[0m  SELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 32 LIMIT 1
+  Rendered categories/_table_category.html.slim (1.7ms)
+  [1m[36mVote Load (0.3ms)[0m  [1mSELECT  "votes".* FROM "votes"  WHERE "votes"."user_id" = 1 AND "votes"."category_id" = 33 LIMIT 1[0m
+  Rendered categories/_table_category.html.slim (0.9ms)
+  Rendered categories/index.html.slim within layouts/application (109.8ms)
+Completed 200 OK in 133ms (Views: 100.1ms | ActiveRecord: 23.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-01 12:15:33 -0300
+  [1m[36m (121.9ms)[0m  [1mDROP DATABASE IF EXISTS "wprixes_development"[0m
+  [1m[35m (117.7ms)[0m  DROP DATABASE IF EXISTS "wprixes_test"
+  [1m[36m (390.6ms)[0m  [1mCREATE DATABASE "wprixes_development" ENCODING = 'unicode'[0m
+  [1m[35m (234.8ms)[0m  CREATE DATABASE "wprixes_test" ENCODING = 'unicode'
+  [1m[36mSQL (0.8ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (6.5ms)[0m  CREATE TABLE "categories" ("id" serial primary key, "description" text, "title" character varying(255), "is_closed_to_nominate" boolean DEFAULT 'f') 
+  [1m[36m (2.1ms)[0m  [1mCREATE TABLE "nominees" ("id" serial primary key, "category_id" integer, "user_id" integer) [0m
+  [1m[35m (3.5ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying(255) DEFAULT '' NOT NULL, "name" character varying(255), "is_admin" boolean DEFAULT 'f', "encrypted_password" character varying(255) DEFAULT '' NOT NULL, "reset_password_token" character varying(255), "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (1.0ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")[0m
+  [1m[35m (0.9ms)[0m  CREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users" USING btree ("reset_password_token")
+  [1m[36m (1.8ms)[0m  [1mCREATE TABLE "votes" ("id" serial primary key, "user_id" integer, "nominee_id" integer, "category_id" integer) [0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (0.8ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20141010011941')[0m
+  [1m[35m (0.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141010011434')
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20141010011855')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141010011917')
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (1.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'cmaderblanco@wolox.com.ar' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'cmaderblanco@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "is_admin", "name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2014-11-01 15:21:39.965630"], ["email", "cmaderblanco@wolox.com.ar"], ["encrypted_password", "$2a$10$XGQvLfr7TMVJR9qoMnrRA.XMmZ7T9CBGHl.hOAFYE4QK.z4qrnJxm"], ["is_admin", "t"], ["name", "Conco"], ["updated_at", "2014-11-01 15:21:39.965630"]]
+  [1m[36m (1.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'ignacio.rivera@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "is_admin", "name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2014-11-01 15:21:40.041806"], ["email", "ignacio.rivera@wolox.com.ar"], ["encrypted_password", "$2a$10$uoyeUJdL5D3aCMxT77OpZukPtmPMzpn1WDT3uVrM1lIXprQTflpwi"], ["is_admin", "t"], ["name", "Nacho"], ["updated_at", "2014-11-01 15:21:40.041806"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'santiago.baglietto@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:40.113329"], ["email", "santiago.baglietto@wolox.com.ar"], ["encrypted_password", "$2a$10$0FNzxfF1kYjMH1e67Q4zieiP5ufeZE.5XInPX8dABT3PQ6wcuXuEe"], ["name", "Santi Bermudez"], ["updated_at", "2014-11-01 15:21:40.113329"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'williams.matias@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:40.187371"], ["email", "williams.matias@wolox.com.ar"], ["encrypted_password", "$2a$10$vaR1a.IU2d1d.KyfU9i9EOtU0wd1NxUGZrphAYbWd5FzDICZ33dey"], ["name", "Wilson"], ["updated_at", "2014-11-01 15:21:40.187371"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'santiago.samra@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:40.258457"], ["email", "santiago.samra@wolox.com.ar"], ["encrypted_password", "$2a$10$jUeeCqw.wY3Jl5XOOJWDEus3P58addw7XrenVcoHGBumgwDhFieci"], ["name", "Rampa"], ["updated_at", "2014-11-01 15:21:40.258457"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'nicomagni@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:40.329727"], ["email", "nicomagni@wolox.com.ar"], ["encrypted_password", "$2a$10$mc/WnCXylWPW5ER5FcJdteD3Qk1rloS0X.TI6GsVwPA6laM.2RkPG"], ["name", "Nixon"], ["updated_at", "2014-11-01 15:21:40.329727"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'pablo.giorgi@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:40.403444"], ["email", "pablo.giorgi@wolox.com.ar"], ["encrypted_password", "$2a$10$D.Y8ntXRZsFPFXlsddp4We/lppjtjc7.rmuwef0THpP6./Gqaeyl."], ["name", "Pol"], ["updated_at", "2014-11-01 15:21:40.403444"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'zeminlu@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:40.475068"], ["email", "zeminlu@wolox.com.ar"], ["encrypted_password", "$2a$10$52c7SK.MJG/h2g3YF/b58Or/URQWJdjLxfyOsSVK7OXBQuAT64CdO"], ["name", "Lula"], ["updated_at", "2014-11-01 15:21:40.475068"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'guidomb@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:40.546149"], ["email", "guidomb@wolox.com.ar"], ["encrypted_password", "$2a$10$4KL8MYPNQgk6iG2JirxgRup8Y2uplipc2iXKQsDvRuP2P/VGvLABm"], ["name", "Guido"], ["updated_at", "2014-11-01 15:21:40.546149"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'matias.desanti@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:40.620652"], ["email", "matias.desanti@wolox.com.ar"], ["encrypted_password", "$2a$10$TVKZJWW6RwmpNyvKIoFHseP94YxafxRRPFeQJG66s/tUf6MBVGoDa"], ["name", "Mati De Santi"], ["updated_at", "2014-11-01 15:21:40.620652"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'esteban.pintos@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:40.692534"], ["email", "esteban.pintos@wolox.com.ar"], ["encrypted_password", "$2a$10$D1fTawGSP9eT0BK6t1DmZeRwesA7qvzCzrOUDEXXevR.99AP0ZHq."], ["name", "Ita"], ["updated_at", "2014-11-01 15:21:40.692534"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'agustina.fainguersch@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:40.763689"], ["email", "agustina.fainguersch@wolox.com.ar"], ["encrypted_password", "$2a$10$l3Q6tfY381VNO8VTEm3UdO1xhDSGEVxaIIXkbXoERR7h7BIv4UiPq"], ["name", "Fagus"], ["updated_at", "2014-11-01 15:21:40.763689"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'federico.ramundo@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:40.835674"], ["email", "federico.ramundo@wolox.com.ar"], ["encrypted_password", "$2a$10$DtPqi394HLu8eid7qa.fHOIEvgzNTjgeylSLT1Le7wmue1j4mYbLe"], ["name", "Fefe R"], ["updated_at", "2014-11-01 15:21:40.835674"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'jose.galindo@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:40.907573"], ["email", "jose.galindo@wolox.com.ar"], ["encrypted_password", "$2a$10$p9u1VThyD2sJuId4kXyFD.kqx4tB62hdng5.HvwXY2inHYQzepokq"], ["name", "Chino"], ["updated_at", "2014-11-01 15:21:40.907573"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'lucas.moscovicz@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:40.979357"], ["email", "lucas.moscovicz@wolox.com.ar"], ["encrypted_password", "$2a$10$aFra9Yrb/YpO8m7bmWvyHer9YSCMDDFn3gPfRXNb1nyVKtnhyl1eK"], ["name", "Luqui"], ["updated_at", "2014-11-01 15:21:40.979357"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'nicolas.buchhalter@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:41.055133"], ["email", "nicolas.buchhalter@wolox.com.ar"], ["encrypted_password", "$2a$10$jA4rIpj/skVo81Kecxr48ujf8tZYkKfceu0Qu2uNwie9tX0xoYz1q"], ["name", "Buchhalter"], ["updated_at", "2014-11-01 15:21:41.055133"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'federico.homovc@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:41.128118"], ["email", "federico.homovc@wolox.com.ar"], ["encrypted_password", "$2a$10$uWYveuPvqiy.H1UIZsVdd.Vbf1QgCdgHdZ8TAZTa2zOl7Z42uqC.C"], ["name", "Fefo H"], ["updated_at", "2014-11-01 15:21:41.128118"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'leonel.badi@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:41.199360"], ["email", "leonel.badi@wolox.com.ar"], ["encrypted_password", "$2a$10$vzeqqDhOPg/7ZPNglzWEWOnBAbGWe4y8YFFEv4lUK.Njrs.xUgxxW"], ["name", "Leo"], ["updated_at", "2014-11-01 15:21:41.199360"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'jpdelorenzo@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:41.275360"], ["email", "jpdelorenzo@wolox.com.ar"], ["encrypted_password", "$2a$10$kl7rrqFqkYbLsKCCBQZEHOa/GuogMkG8CnXe5957BhVd7d5Pk7jhO"], ["name", "JP"], ["updated_at", "2014-11-01 15:21:41.275360"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'mariano.matayoshi@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:41.347851"], ["email", "mariano.matayoshi@wolox.com.ar"], ["encrypted_password", "$2a$10$bkitPYgo1l9mQ6CzCngorumR4smTrn832nIQ6HP19DEjlPbv85I.2"], ["name", "Ninja"], ["updated_at", "2014-11-01 15:21:41.347851"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'gonzalo.garcia@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:41.419457"], ["email", "gonzalo.garcia@wolox.com.ar"], ["encrypted_password", "$2a$10$GAMJLnAKAdHBziSozOrQXe./yIL2oidHz9N5fVVrtviTtMdEWwepq"], ["name", "Gonzalo"], ["updated_at", "2014-11-01 15:21:41.419457"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'german.romarion@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:41.491445"], ["email", "german.romarion@wolox.com.ar"], ["encrypted_password", "$2a$10$eX5eJ7oRW4juPh/c3ASLvuiqje1AqcWxfSZH/xq27N4z4YH9zax9G"], ["name", "German (Pancet)"], ["updated_at", "2014-11-01 15:21:41.491445"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'federico.tedin@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:41.563702"], ["email", "federico.tedin@wolox.com.ar"], ["encrypted_password", "$2a$10$OXyuJMLseTX1RfNIHJ3LsugV0w9Eq6vOgojgD59OvzJV26URNWzu."], ["name", "Federico Virgilio Tedin"], ["updated_at", "2014-11-01 15:21:41.563702"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'eugenia.lago@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:41.635616"], ["email", "eugenia.lago@wolox.com.ar"], ["encrypted_password", "$2a$10$YTVs7nOXH/zhdokG1VEIIeymcR5HuUIaCUEz/hEo25qnMWYHUntsC"], ["name", "Euge (Princess)"], ["updated_at", "2014-11-01 15:21:41.635616"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'anabella.mazzuca@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:41.706816"], ["email", "anabella.mazzuca@wolox.com.ar"], ["encrypted_password", "$2a$10$m0ZYi4QCzlStldX0A0H9xOS8ZH/.T0d8YhtsIsw93yZzt34sQacVy"], ["name", "Anabella"], ["updated_at", "2014-11-01 15:21:41.706816"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'francisco.cervellera@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:41.780172"], ["email", "francisco.cervellera@wolox.com.ar"], ["encrypted_password", "$2a$10$Ze6xnc6Dkw6hvjP977InNOeQltRZx2P8eIDiMFsCh/2w3HQFrANpO"], ["name", "Fran"], ["updated_at", "2014-11-01 15:21:41.780172"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'luciana.reznik@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:41.850717"], ["email", "luciana.reznik@wolox.com.ar"], ["encrypted_password", "$2a$10$icA5JWYXvPWSIbV2kvoUuert8URKDNJbudnone4BSLMEca2bMW6Di"], ["name", "Lule Rez"], ["updated_at", "2014-11-01 15:21:41.850717"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'fernando.sola@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:41.920848"], ["email", "fernando.sola@wolox.com.ar"], ["encrypted_password", "$2a$10$99F4ui2i3uz19hq7lWkbcOdhxp7UZCQwe82rGxb44NwkXwCwN1C3q"], ["name", "Fer Sola"], ["updated_at", "2014-11-01 15:21:41.920848"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'daniela.martin@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:41.991260"], ["email", "daniela.martin@wolox.com.ar"], ["encrypted_password", "$2a$10$B34s0XcinQyjeJrhIMUp2O.iK8iMicj3jNl2QFNW/0QPGSJTITbAm"], ["name", "Dani"], ["updated_at", "2014-11-01 15:21:41.991260"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'matias.alvarez@wolox.com.a' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:42.065958"], ["email", "matias.alvarez@wolox.com.a"], ["encrypted_password", "$2a$10$F6U9wEp4Qf22198DGkgae.uBVkuYIaWRSzoMmFymAw9yiZeTq5S/O"], ["name", "Mati A"], ["updated_at", "2014-11-01 15:21:42.065958"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'federico.dinucci@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:42.140857"], ["email", "federico.dinucci@wolox.com.ar"], ["encrypted_password", "$2a$10$AtLByCd//xzDFWD4wBZ5AeeX7I5j.K1eiDLkvOHKid7AdL/Mdend."], ["name", "Di Nucci"], ["updated_at", "2014-11-01 15:21:42.140857"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'jesus.herrera@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:42.211497"], ["email", "jesus.herrera@wolox.com.ar"], ["encrypted_password", "$2a$10$GZjnBaxmjdyq6CniPC3K5eSmhgeHb7wE8RJMRSDWQ48cR9CsQyd8a"], ["name", "Shizus"], ["updated_at", "2014-11-01 15:21:42.211497"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'inaki.lanusse@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:42.285707"], ["email", "inaki.lanusse@wolox.com.ar"], ["encrypted_password", "$2a$10$7wqmMoD.Id2UX9hFKWgoH.e9DViDW8jwvWl7232TsSgT48PKvDrSS"], ["name", "Iñaki"], ["updated_at", "2014-11-01 15:21:42.285707"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'agustin.pagnoni@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:42.357826"], ["email", "agustin.pagnoni@wolox.com.ar"], ["encrypted_password", "$2a$10$taXYvpyhNpW7M73aY9eH3uH8tagiT28sAmmjroozrwlWorOejRGVi"], ["name", "Agulo"], ["updated_at", "2014-11-01 15:21:42.357826"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'franco.zannini@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:42.428930"], ["email", "franco.zannini@wolox.com.ar"], ["encrypted_password", "$2a$10$EQWDUjuP2k/ugQe1P6oTfe18cTD4zz8TUqvzVc.Zz1gHTjeTOc4iK"], ["name", "Franco Z"], ["updated_at", "2014-11-01 15:21:42.428930"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'anita.romero@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:42.499434"], ["email", "anita.romero@wolox.com.ar"], ["encrypted_password", "$2a$10$oOlaxK939nZ6h9O5sZjOYeOPExbDZ3xnDHK0AqT04lZEjZW2.2Q6."], ["name", "Anita"], ["updated_at", "2014-11-01 15:21:42.499434"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'emilio.tylson@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:42.572973"], ["email", "emilio.tylson@wolox.com.ar"], ["encrypted_password", "$2a$10$2WThBj3Vlk94bKA/2Ouss.Enavw9Gs2PUf2jyn0Jg9FCMW6GonPQ6"], ["name", "Emilio Tylson"], ["updated_at", "2014-11-01 15:21:42.572973"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'sebastian.balay@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:42.647369"], ["email", "sebastian.balay@wolox.com.ar"], ["encrypted_password", "$2a$10$ikXY.X/nXfG/SsBKqo6xheHP5avlzhmlhjDkoD3B/FkGGM6.gzed2"], ["name", "Seba B"], ["updated_at", "2014-11-01 15:21:42.647369"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'pablo.ferro@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:42.721366"], ["email", "pablo.ferro@wolox.com.ar"], ["encrypted_password", "$2a$10$.1ejnUY/0Ry8LxFJJJreqev/o0maS/.EPGo.1bHpDrCe1YnKcw.MS"], ["name", "Pablito Ferro"], ["updated_at", "2014-11-01 15:21:42.721366"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'maximiliano.schultheis@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:42.793140"], ["email", "maximiliano.schultheis@wolox.com.ar"], ["encrypted_password", "$2a$10$uMe51ILxnpGwALbSQrtHp.uYuqcSnRv8tZJNzBhONVwgw22a1083C"], ["name", "Maxi"], ["updated_at", "2014-11-01 15:21:42.793140"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'dfinkelstein@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:42.867120"], ["email", "dfinkelstein@wolox.com.ar"], ["encrypted_password", "$2a$10$47OtE/vOfE4vpohrCiL.UueJCE8yPWNAPXYYyQgKVOCXwRGnkJK3y"], ["name", "Capi"], ["updated_at", "2014-11-01 15:21:42.867120"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'lucila.stancato@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:42.938723"], ["email", "lucila.stancato@wolox.com.ar"], ["encrypted_password", "$2a$10$4OyoSyQ1YL0DdZtoZ1fMWeoeiakFj5us7swcvL9aB9gANMm8wiz8m"], ["name", "Lu S"], ["updated_at", "2014-11-01 15:21:42.938723"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'gabriel.zanzoti@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:43.010586"], ["email", "gabriel.zanzoti@wolox.com.ar"], ["encrypted_password", "$2a$10$UL4cKsgAm/U9lZw9CYVsE.OE7ZFTE2WENGhhZ8JZA2OXalJmUw2fu"], ["name", "Gabo"], ["updated_at", "2014-11-01 15:21:43.010586"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'tomas.mehdi@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:43.085366"], ["email", "tomas.mehdi@wolox.com.ar"], ["encrypted_password", "$2a$10$auzrwh03/6NfIRUPyIzgXuAcPe8G.NK1n23jo2FCcXmsAREzLPuXK"], ["name", "Tomy"], ["updated_at", "2014-11-01 15:21:43.085366"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'federico.pomar@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:43.160531"], ["email", "federico.pomar@wolox.com.ar"], ["encrypted_password", "$2a$10$aw.yTioUVlY3Km4Ustfkjugbya9B.iNtqX6hh9Y9Q5Ai3NPJx94vi"], ["name", "Fepo"], ["updated_at", "2014-11-01 15:21:43.160531"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'javier.fraire@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:43.235810"], ["email", "javier.fraire@wolox.com.ar"], ["encrypted_password", "$2a$10$X8DtfYY/zTtB2OqwPZmLDe47.KkdfJIlTGFKLeWC8PbMne8Zq.esW"], ["name", "Javo (Negri)"], ["updated_at", "2014-11-01 15:21:43.235810"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'santiago.roldan@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:43.310665"], ["email", "santiago.roldan@wolox.com.ar"], ["encrypted_password", "$2a$10$5CZLeeHzbGXuAT5A49UfsOnKxcRQwi629OVAlmw5hw9xjh5E4KBQK"], ["name", "Ranti"], ["updated_at", "2014-11-01 15:21:43.310665"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'michel.agopian@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-01 15:21:43.381167"], ["email", "michel.agopian@wolox.com.ar"], ["encrypted_password", "$2a$10$.qMaHjv0lb55rho11Cpnwe.x8MAVNWzd39e3vTJzukbKNEfln.sdu"], ["name", "Mishu"], ["updated_at", "2014-11-01 15:21:43.381167"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"[0m  [["description", "Quien es el mas judio de Wolox??"], ["title", "El W-Moises"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"  [["description", "Quien es el mejor cocinero de Wolox?"], ["title", "El Chef Wolox"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"[0m  [["description", "Quien es el que peor lava de Wolox??"], ["title", "El que peor lava"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"  [["description", "El mas roto del año"], ["title", "El premio embudo!"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"[0m  [["description", "La victima de bullying"], ["title", "El W-Bowling"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"  [["description", "El ejecutor del bullying"], ["title", "El W-Bowler"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"[0m  [["description", "El mas fit en la barra de dominadas"], ["title", "W-Giladita"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"  [["description", "El frequent flyer de NO loggear las horas"], ["title", "El peor time-logger"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"[0m  [["description", "El jardinero"], ["title", "El W-Pasto"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"  [["description", "El q menos vino"], ["title", "El W-Fantasma"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"[0m  [["description", "La victima de la peor joda de Facebook"], ["title", "La W-joda-Facebook"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"  [["description", "La ejecutor de la peor joda de Facebook"], ["title", "El W-Trol-Facebook"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"[0m  [["description", "Much Angry Such Rage"], ["title", "El W-Calenton"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"  [["description", "El mas rustiq en el Wfootball"], ["title", "El W-rustico"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"[0m  [["description", "El mas lyric en el Wfootball"], ["title", "El W-lirico"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"  [["description", "Such Music, Wow, Very Hear"], ["title", "El WDJ"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"[0m  [["description", "La revelación del año.\nXOXO Gossip Girl"], ["title", "El W-Closet"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"  [["description", "El mas chic"], ["title", "El W-Fabulous"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "categories" ("description", "is_closed_to_nominate", "title") VALUES ($1, $2, $3) RETURNING "id"[0m  [["description", "Quien es el alma de la tribu?"], ["is_closed_to_nominate", "t"], ["title", "El W-tribu"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("description", "is_closed_to_nominate", "title") VALUES ($1, $2, $3) RETURNING "id"  [["description", "wwww.todotartas.com.ar"], ["is_closed_to_nominate", "t"], ["title", "El CTAPTC"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"[0m  [["description", "La yuta loco"], ["title", "La W-police"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"  [["description", "Menos onda que y = a*x + b"], ["title", "EL W-MalaOnda"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"[0m  [["description", "El mejor apodo"], ["title", "El Premio Bebu"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"  [["description", "Quien es mas torpe/inutil"], ["title", "La Conqueada de Oro"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"[0m  [["description", "Este no se que quiere decir pero estaba anotado en el pizarron"], ["title", "El W-barrilete"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"  [["description", "Quien revolea la chancleta?"], ["title", "El W-promiscuo"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("description", "is_closed_to_nominate", "title") VALUES ($1, $2, $3) RETURNING "id"[0m  [["description", "Quien es el lider del mejor equipo (Tribu / Others)"], ["is_closed_to_nominate", "t"], ["title", "El W-futbolero"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"  [["description", "Quien es infalible? <3"], ["title", "El W-Compañero"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("description", "is_closed_to_nominate", "title") VALUES ($1, $2, $3) RETURNING "id"[0m  [["description", "Que TL la pisa mas?"], ["is_closed_to_nominate", "t"], ["title", "El W-TL de Oro"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("description", "is_closed_to_nominate", "title") VALUES ($1, $2, $3) RETURNING "id"  [["description", "Que PO es el mas mejor?"], ["is_closed_to_nominate", "t"], ["title", "El W-PO de Oro"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("description", "is_closed_to_nominate", "title") VALUES ($1, $2, $3) RETURNING "id"[0m  [["description", "Quien es tu founder preferido?"], ["is_closed_to_nominate", "t"], ["title", "El W-founder"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("description", "is_closed_to_nominate", "title") VALUES ($1, $2, $3) RETURNING "id"  [["description", "Quien es tu nuevo preferido (2014)?"], ["is_closed_to_nominate", "t"], ["title", "El W-nuevo"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("description", "title") VALUES ($1, $2) RETURNING "id"[0m  [["description", "Quien es el mejor woloxer?"], ["title", "El Woloxer de Oro!"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 1], ["user_id", 12]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 1], ["user_id", 15]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 1], ["user_id", 41]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 1], ["user_id", 27]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 2], ["user_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 2], ["user_id", 42]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 2], ["user_id", 8]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 2], ["user_id", 1]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 3], ["user_id", 1]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 3], ["user_id", 44]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 4], ["user_id", 46]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 4], ["user_id", 32]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 5], ["user_id", 46]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 5], ["user_id", 1]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 5], ["user_id", 14]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 6], ["user_id", 1]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 5], ["user_id", 6]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 7], ["user_id", 43]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 7], ["user_id", 16]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 7], ["user_id", 15]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 7], ["user_id", 19]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 7], ["user_id", 26]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 7], ["user_id", 47]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 8], ["user_id", 13]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 8], ["user_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 8], ["user_id", 45]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 9], ["user_id", 13]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 9], ["user_id", 42]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 9], ["user_id", 1]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 9], ["user_id", 36]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 9], ["user_id", 6]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 11], ["user_id", 1]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 11], ["user_id", 24]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 11], ["user_id", 42]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 11], ["user_id", 6]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 12], ["user_id", 1]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 12], ["user_id", 13]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 12], ["user_id", 19]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 13], ["user_id", 10]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 13], ["user_id", 46]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 13], ["user_id", 4]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 14], ["user_id", 1]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 14], ["user_id", 44]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 14], ["user_id", 6]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 15], ["user_id", 15]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 15], ["user_id", 34]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 15], ["user_id", 19]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 15], ["user_id", 38]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 16], ["user_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 16], ["user_id", 6]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 16], ["user_id", 10]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 16], ["user_id", 8]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 18], ["user_id", 13]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 18], ["user_id", 24]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 18], ["user_id", 14]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 19], ["user_id", 12]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 19], ["user_id", 34]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 19], ["user_id", 43]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 19], ["user_id", 33]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 19], ["user_id", 15]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 19], ["user_id", 1]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 20], ["user_id", 12]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 21], ["user_id", 36]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 21], ["user_id", 4]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 22], ["user_id", 4]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 22], ["user_id", 10]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 22], ["user_id", 5]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 22], ["user_id", 9]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 23], ["user_id", 43]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 23], ["user_id", 46]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 23], ["user_id", 22]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 24], ["user_id", 1]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 24], ["user_id", 44]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 26], ["user_id", 24]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 27], ["user_id", 41]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 27], ["user_id", 19]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 29], ["user_id", 1]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 29], ["user_id", 6]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 29], ["user_id", 13]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 29], ["user_id", 7]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 29], ["user_id", 11]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 29], ["user_id", 10]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 10], ["user_id", 3]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 10], ["user_id", 10]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 10], ["user_id", 20]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 10], ["user_id", 30]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 30], ["user_id", 1]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 30], ["user_id", 2]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 30], ["user_id", 6]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 30], ["user_id", 8]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 30], ["user_id", 5]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 31], ["user_id", 5]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 31], ["user_id", 6]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 31], ["user_id", 4]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 31], ["user_id", 3]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 31], ["user_id", 9]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 31], ["user_id", 8]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 31], ["user_id", 7]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 32], ["user_id", 16]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 32], ["user_id", 37]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 32], ["user_id", 18]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 32], ["user_id", 48]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 32], ["user_id", 21]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 32], ["user_id", 23]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 32], ["user_id", 22]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 32], ["user_id", 45]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 32], ["user_id", 46]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 32], ["user_id", 31]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 32], ["user_id", 44]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 32], ["user_id", 40]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 32], ["user_id", 47]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 32], ["user_id", 28]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 32], ["user_id", 27]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 32], ["user_id", 36]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 32], ["user_id", 25]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 32], ["user_id", 35]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"  [["category_id", 32], ["user_id", 39]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nominees" ("category_id", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["category_id", 32], ["user_id", 24]]
+  [1m[35m (0.3ms)[0m  COMMIT
