@@ -38,10 +38,6 @@ gem 'inherited_resources'
 gem 'carrierwave'
 gem 'rmagick'
 
-gem 'turbolinks'
-
-gem 'jquery-turbolinks'
-
 gem 'devise'
 
 gem "highcharts-rails", "~> 3.0.0"
