@@ -3,7 +3,9 @@ class CategoriesController < ApplicationController
   before_filter :check_user
 
   def index
-    @categories = Category.all
+    categories = Category.all.sort
+    @categories_voted = categories.reject { |c| current_user.voted? c }.shuffle
+    @categories_not_voted = categories.select { |c| current_user.voted? c }
   end
 
   def show

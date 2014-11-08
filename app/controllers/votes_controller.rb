@@ -7,6 +7,14 @@ class VotesController < ApplicationController
     @vote = Vote.create!(resource_params.first)
   end
 
+  def destroy
+    vote = Vote.find(params[:id])
+    if current_user.id == vote.user.id
+      vote.destroy!
+    end
+    redirect_to :back
+  end
+
   private
 
   def resource_params

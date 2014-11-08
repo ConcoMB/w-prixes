@@ -55,6 +55,7 @@ michel = User.create!(name: 'Mishu', avatar: avatar('michel'), email: 'michel.ag
 
 puts 'categories'
 moises = Category.create!(image: avatar('moises'), title: 'El W-Moises', description: 'Quien es el mas judio de Wolox??')
+risa = Category.create!(image: avatar('risa'), title: 'La W-risa', description: 'La risa que contagia mas risas')
 chef = Category.create!(image: avatar('chef'), title: 'El Chef Wolox', description: 'Quien es el mejor cocinero de Wolox?')
 peor_lava = Category.create!(image: avatar('peor_lava'), title: 'El que peor lava', description: 'Quien es el que peor lava de Wolox??')
 # ortiva = Category.create!(image: avatar('ortiva'), title: 'El W-Ortiva', description: 'Quien se pone la gorra?')
@@ -71,7 +72,6 @@ trolfb = Category.create!(image: avatar('trolfb'), title: 'El W-Trol-Facebook', 
 calenton = Category.create!(image: avatar('calenton'), title: 'El W-Calenton', description: 'Much Angry Such Rage')
 rustic = Category.create!(image: avatar('rustic'), title: 'El W-rustico', description: 'El mas rustiq en el Wfootball')
 lyric = Category.create!(image: avatar('lyric'), title: 'El W-lirico', description: 'El mas lyric en el Wfootball')
-
 wdj = Category.create!(image: avatar('wdj'), title: 'El WDJ', description: 'Such Music, Wow, Very Hear')
 closet = Category.create!(image: avatar('closet'), title: 'El W-Closet', description: "La revelación del año.")
 fabuloso = Category.create!(image: avatar('fabuloso'), title: 'El W-Fabulous', description: 'El mas chic')
@@ -89,7 +89,6 @@ tl = Category.create!(image: avatar('tl'), title: 'El W-TL de Oro', description:
 po = Category.create!(image: avatar('po'), title: 'El W-PO de Oro', description: 'Que PO es el mas mejor?', is_closed_to_nominate: true)
 founder = Category.create!(image: avatar('founder'), title: 'El W-founder', description: 'Quien es tu founder preferido?', is_closed_to_nominate: true)
 nuevo = Category.create!(image: avatar('nuevo'), title: 'El W-nuevo', description: 'Quien es tu nuevo preferido (2014)?', is_closed_to_nominate: true)
-
 oro = Category.create!(image: avatar('oro'), title: 'El Woloxer de Oro!', description: 'Quien es el mejor woloxer?')
 
 puts 'nominees'
@@ -103,6 +102,12 @@ Nominee.create!(user: lula, category: chef)
 Nominee.create!(user: conco, category: chef)
 Nominee.create!(user: conco, category: peor_lava)
 Nominee.create!(user: tomy, category: peor_lava)
+Nominee.create!(user: conco, category: risa)
+Nominee.create!(user: wilson, category: risa)
+Nominee.create!(user: ninja, category: risa)
+Nominee.create!(user: inaki, category: risa)
+Nominee.create!(user: ana, category: risa)
+
 # Nominee.create!(user: mati_a, category: ortiva)
 # Nominee.create!(user: ninja, category: ortiva)
 # Nominee.create!(user: bermu, category: ortiva)

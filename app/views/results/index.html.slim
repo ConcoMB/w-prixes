@@ -16,6 +16,7 @@
           - if r[:ordered_results].length >= 3
             p = "3. #{r[:ordered_results][2][0].name} con #{r[:ordered_results][2][1]} votos" 
             = image_tag r[:ordered_results][2][0].avatar, class: 'avatar'
+      br
       .chart-container
       hr
-end
+a.button.success href=categories_path Volver

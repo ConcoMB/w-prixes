@@ -1,6 +1,6 @@
 a href=category_path(category)
-  - color = current_user.voted?(category) ? '' : 'success'
+  - color = voted ? '' : 'success'
   = image_tag category.image, class: 'avatar'
   a.button.m10 href=category_path(category) class=color
-    h4 = category.title
+    h4.white = category.title
 br

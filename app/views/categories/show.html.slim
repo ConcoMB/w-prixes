@@ -2,6 +2,8 @@ h2 = @category.title
 h4 = @category.description
 - if current_user.voted?(@category)
   p = "Ya votaste a #{current_user.find_vote(@category).nominee.user.name} capo"
+  = form_tag vote_path(current_user.find_vote(@category).id), method: :delete
+    input type='submit' class='button alert' value='Borrar mi voto'
 - else
   h5 Vota a un nominado!
   div

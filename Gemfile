@@ -5,8 +5,6 @@ ruby '2.1.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
 
-gem 'google-webfonts-rails'
-
 # Use postgresql as the database for Active Record
 gem 'pg'
 
@@ -39,6 +37,8 @@ gem 'carrierwave'
 gem 'rmagick'
 
 gem 'devise'
+
+gem 'google-webfonts'
 
 gem "highcharts-rails", "~> 3.0.0"
 

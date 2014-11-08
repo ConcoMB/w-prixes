@@ -6,7 +6,7 @@ WPrixes::Application.routes.draw do
   resources :categories, only: [:index, :show] do
     resources :nominees, only: [:create]
   end
-  resources :votes, only: [:create]
+  resources :votes, only: [:create, :destroy]
   resources :results, only: [:index]
 
   require 'sidekiq/web'

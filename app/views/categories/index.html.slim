@@ -1,8 +1,10 @@
 h1 Bienvenido a los W-awards 2014
 h3 Categorias
 div
-  - @categories.each do |c|
-    = render 'table_category', category: c
+  - @categories_voted.each do |c|
+    = render 'table_category', category: c, voted: false
+  - @categories_not_voted.each do |c|
+    = render 'table_category', category: c, voted: true
 br
 - if current_user.is_admin
-  a.button.alert href=results_path resultados
+  a.button.alert href=results_path Resultados
